@@ -1,0 +1,18 @@
+$types: ("grass": "green", "fire": "orange", "water": "blue");
+
+@each $type, $color in $types {
+  .type-#{$type} {
+    background-color: unquote($color);
+  }
+}
+
+.with-padding-top {
+  padding-top: 75px
+}
+
+.shadow {
+  box-shadow: 0 .5rem .5rem rgba(255,255,255,.15)!important;
+}
+.card {
+  border-radius: 50px;
+}

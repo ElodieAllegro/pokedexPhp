@@ -1,0 +1,23 @@
+.type-grass {
+  background-color: green;
+}
+
+.type-fire {
+  background-color: orange;
+}
+
+.type-water {
+  background-color: blue;
+}
+
+.with-padding-top {
+  padding-top: 75px;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 0.5rem rgba(255, 255, 255, 0.15) !important;
+}
+
+.card {
+  border-radius: 50px;
+}/*# sourceMappingURL=app.css.map */
